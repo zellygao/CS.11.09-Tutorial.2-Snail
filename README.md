@@ -1,22 +1,22 @@
 Complete all 6 TODO's in the Snail class.
 
-** TODO 1 **
+**TODO 1**
 
 A helper method that prints the contents of a 1D array.
 
-** TODO 2 **
+**TODO 2**
 
 A helper method that prints the contents of a 2D array.
 
-** TODO 3 **
+**TODO 3**
 
 A helper method that checks to see whether a 1D array's length is a perfect square.
 
-** TODO 4 **
+**TODO 4**
 
 A helper method that checks to see whether a 2D array is square or not.
 
-** TODO 5 **
+**TODO 5**
 
 Takes a 2D array and returns a 1D array. The contents of the 1D array should be in a snail order traversal.
 
@@ -24,7 +24,7 @@ Takes a 2D array and returns a 1D array. The contents of the 1D array should be 
 
 If the above 2D was passed to this method, then an array resembling [1,2,3,6,9,8,7,4,5] should be returned.
 
-** TODO 6 **
+**TODO 6**
 
 Takes a 1D array and returns a 2D array. The contents of the 2D array should be in a snail order traversal. Effectively, you are packing the 1D array into a snail formation.
 
