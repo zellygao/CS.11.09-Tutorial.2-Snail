@@ -1,4 +1,4 @@
-Complete all **six TODO's** in the Snail class.
+Complete all **six** TODO's in the Snail class.
 
 **TODO 1**
 
