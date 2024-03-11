@@ -71,7 +71,9 @@ public class Snail {
      * @param array1d
      */
     private static void print1dArray(int[] array1d) {
-
+        for(int elem:array1d){
+            System.out.println(elem);
+        }
     }
 
     /**
@@ -84,7 +86,11 @@ public class Snail {
      * @param array2d
      */
     private static void print2dArray(int[][] array2d) {
-
+        for(int[] row:array2d){
+            for(int col:row){
+                System.out.println(col);
+            }
+        }
     }
 
     /**
@@ -97,6 +103,9 @@ public class Snail {
      * @return
      */
     private static boolean isPerfectSquare(int[] array1d) {
+        if(array1d){
+            return true;
+        }
         return false;
     }
 
@@ -111,7 +120,12 @@ public class Snail {
      * @return
      */
     private static boolean isPerfectSquare(int[][] array2d) {
-        return false;
+        for(int[]row:array2d){
+            if(row.length != array2d.length){
+                return false;
+            }
+        }
+        return true;
     }
 
 
