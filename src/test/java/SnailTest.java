@@ -355,7 +355,6 @@ class SnailTest {
 
         for (int i = 0; i < expectedResult.length; i++) {
             for (int j = 0; j < expectedResult[i].length; j++) {
-
                 assertEquals(expectedResult[i][j], snail[i][j]);
 
             }
